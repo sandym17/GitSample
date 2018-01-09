@@ -28,7 +28,7 @@ namespace GitSample
 
 
         [Test, Order(1)]
-        public void SearchTest()
+        public void SearchTest1()
         {
             SearchPage page = new SearchPage();
             page.GoogleSearch("test");

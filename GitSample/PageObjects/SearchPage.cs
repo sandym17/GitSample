@@ -27,9 +27,9 @@ namespace GitSample
         public void GoogleSearch(string searchText)
         {
             searchBox.EnterText(searchText);
-            System.Threading.Thread.Sleep(5000);
-            //searchButton.Click();
-            System.Threading.Thread.Sleep(5000);
+            //System.Threading.Thread.Sleep(5000);
+            //searchBox.SendKeys(Keys.Return);
+            //System.Threading.Thread.Sleep(5000);
 
         }
 
